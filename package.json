@@ -1,0 +1,29 @@
+{
+  "name": "adder-r281gq",
+  "version": "1.0.4",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cj": "dist/how-long-till-lunch.cjs.js",
+  "es": "dist/how-long-till-lunch.esm.js",
+  "umd": "dist/how-long-till-lunch.umd.js",
+  "author": "Endre Vegh",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.orderby": "^4.6.0"
+  },
+  "devDependencies": {
+    "rollup": "^0.64.1",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-typescript2": "^0.16.1",
+    "typescript": "^3.0.1"
+  }
+}
